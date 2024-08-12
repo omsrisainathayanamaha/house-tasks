@@ -19,7 +19,17 @@ function profileServer()
     {
         if(xhr.readyState == 4 && xhr.status == 200)
         {
+            /*should send me the following data:
+            Total Service Hours - Cleaning (lifetime)
+            Total Service Hours - Kitchen (this week)
+            Service Hours - Cleaning (this week)
+            Service Hours - Kitchen (this week)
+            Service Hours - Cleaning Required (this week)
+            Service Hours - Kitchen Required (this week)
+            Task List - Cleaning (each has a name, time required, and date string)
+            Task List - Kitchen (each has a name, time required, and date string)
             
+            */
         }
     }
     xhr.send(data);
